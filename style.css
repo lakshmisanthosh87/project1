@@ -4,8 +4,11 @@
 }
 .navbar{
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     /* background-color: red; */
+    background-image: url(./images/bg-tablet-pattern.svg);
+     background-repeat: no-repeat;
+     background-position: right -100px top -200px;
 }
 .nav1{
     width: 100%;
@@ -46,4 +49,137 @@
     height: 40px;
     border-radius: 20px;
     background-color: rgb(207, 91, 19);
+    border: none;
+    color: white;
+}
+
+
+
+.nav5{
+    width: 100%;
+    height: 70vh;
+    /* background-color: blue; */
+    display: flex;
+
+}
+.subnav1{
+    width: 40%;
+    height: 80vh;
+     /* background-color: yellow;  */
+    
+    
+
+}
+.subnav1 h2{
+    color: rgb(16, 16, 49);
+    font-size: 50px;
+    padding-left: 140px;
+    padding-top: 130px;
+
+}
+.subnav1 p{
+    padding-left: 140px;
+    padding-top: 20px;
+    color: rgb(99, 99, 183);
+
+}
+
+.subnav1 button{
+     width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(207, 91, 19);
+    border: none;
+    color: white;
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+
+.subnav2{
+    width: 60%;
+    height: 70vh;
+   /* background-color: red; */
+    
+}
+
+.subnav2 img{
+   
+    padding-left: 130px;
+    padding-top: 50px;
+}
+
+
+.main{
+    width: 100%;
+    height: 80vh;
+    /* background-color: thistle; */
+    display: flex;
+}
+
+.submain{
+    width: 40%;
+    height: 80vh;
+    /* background-color: red; */
+    display: block;
+    
+}
+
+.submain h4{
+    padding-left: 140px;
+    padding-top: 140px;
+    font-size: 40px;
+    color: rgb(18, 18, 81);
+}
+.submain p{
+    padding-left: 140px;
+    padding-top: 30px;
+    color: rgb(99, 99, 183);
+}
+.submain1{
+    width: 50%;
+    height: 80vh;
+    /* background-color: red;  */
+}
+
+.section1{
+    padding-left: 150px;
+    padding-top: 150px;
+    display: flex;
+}
+.btn1 button{
+    width: 50px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: orangered;
+}
+.para h4{
+    padding-left: 25px;
+}
+.para p{
+    padding-left: 25px;
+    padding-top: 15px;
+    color: rgb(99, 99, 183); ;
+}
+
+.section2{
+    padding-left: 150px;
+    padding-top: 40px;
+    display: flex;
+}
+.btn2 button{
+    width: 50px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: orangered;
+}
+.para1 h4{
+    padding-left: 25px;
+}
+.para1 p{
+    padding-left: 25px;
+    padding-top: 15px;
+    color: rgb(99, 99, 183); ;
 }
